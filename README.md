@@ -30,12 +30,17 @@ Create an account over at https://openweathermap.org/
 
 ## Usage
 `weather.py` which will return the current weather description
+
 or
+
 `weather.py forecast` which will return a description of the forecast for the rest of the day
 
 Alternatively you can alias these for ease of use. Add the below lines to your .zshrc or .bashrc file.
+
 `alias weather="weather.py"`
+
 `alias forecast="weather forecast"`
+
 Then simply call `weather` or `forecast`
 
 ## To-do
