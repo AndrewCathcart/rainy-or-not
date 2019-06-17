@@ -1,11 +1,11 @@
-## rainy-or-not
+# rainy-or-not
 
-# Description
+## Description
 This project is built using [Python3](https://www.python.org/download/releases/3.0/) & uses [Pipenv](https://docs.pipenv.org/en/latest/) for managing dependencies.
 
 It uses the openweathermap API to provide a tiny description of either the current weather at a location or the forecast for today
 
-# Installation
+## Installation
 `git clone "git@github.com:AndrewCathcart/rainy-or-not.git"`
 `cd rainy-or-not`
 `pipenv install` (or `pip install pipenv` followed by `pipenv install` if you don't already have pipenv)
@@ -25,7 +25,7 @@ Create an account over at https://openweathermap.org/
 `chmod +x weather.py`
 `sudo cp weather.py /usr/local/bin`
 
-# Usage
+## Usage
 `weather.py` which will return the current weather description
 or
 `weather.py forecast` which will return a description of the forecast for the rest of the day
@@ -35,5 +35,5 @@ Alternatively you can alias these for ease of use. Add the below lines to your .
 `alias forecast="weather forecast"`
 Then simply call `weather` or `forecast`
 
-# To-do
+## To-do
 Add support for passing in a location
