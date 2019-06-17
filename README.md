@@ -14,7 +14,7 @@ It uses the openweathermap API to provide a tiny description of either the curre
 
 Navigate to weather.py
 - On line 1 add the location you copied as a shebang, it should look something like this: `#!/Users/andrew.cathcart/.local/share/virtualenvs/rainy-or-not-kja58eca/bin/python`
-- On line 13, change `"q": "newcastle,gb"` to the location you want information for. 
+- On line 13, change `"q": "newcastle upon tyne,gb"` to the location you want information for. 
     - The format is city,iso3166countrycode
     - For example, to change the location to London, United Kingdom `"q": "London,GB"`
 

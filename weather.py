@@ -10,7 +10,7 @@ API_KEY = os.environ["OPENWEATHERMAP_API_KEY"]
 
 payload = {
     "APPID": API_KEY,
-    "q": "newcastle,gb"
+    "q": "newcastle upon tyne,gb"
 }
 URL = "http://api.openweathermap.org/data/2.5/weather"
 
